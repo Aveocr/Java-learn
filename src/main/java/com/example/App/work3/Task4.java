@@ -7,12 +7,12 @@ public class Task4 {
         int[][] matrix = new int[10][10];
         matrix = functionMain.fillDoubleArrayByRandom(matrix, 0, 99);
         int[] array = functionForSorted.convertMatrixToArrya(matrix);
-        array = functionForSorted.mergeSort(array);
+        array = functionForSorted.selectionSort(array);
         matrix = functionForSorted.convertArrayToMatrix(array);
         functionMain.printMatrix(matrix);
     }
 
-    public int[] convertMatrixToArrya(int[][] matrix){
+        public int[] convertMatrixToArrya(int[][] matrix){
         int[] array = new int[matrix[0].length * matrix.length];
         int count = 0;
         for (int i = 0; i < matrix[0].length; i++) {
@@ -36,7 +36,7 @@ public class Task4 {
         return matrix;
     }
 
-    public int[] mergeSort(int[] array) {
+    public int[] selectionSort(int[] array) {
         int minIndex, buff;
         Task4 findMinNumber = new Task4();
         for (int i = 0; i < array.length; i++) {
