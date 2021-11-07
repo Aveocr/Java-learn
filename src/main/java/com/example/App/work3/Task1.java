@@ -8,11 +8,13 @@ public class Task1 {
 
         int[][] matrix = task1.createDoubleArray(10);
         matrix = task1.fillDoubleArrayByRandom(matrix, 0, 99);
+
         int[] result = new int[matrix.length];
         for (int i = 0; i < matrix.length; i++) {
-            System.out.printf("The column is %d and sum is equal to %d\n", i + 1,
-                    task1.sumColumnDoubleArray(matrix, i));
-            result[i] = task1.sumColumnDoubleArray(matrix, i); // запись в массив
+            result[i] = task1.sumRowDoubleArray(matrix, i); // запись в массив
+        }
+        for (int j=0; j < result.length; j++) {
+            System.out.printf("The row is %d and sum is equal to %d\n", j, result[j]);
         }
     }
 
@@ -29,6 +31,7 @@ public class Task1 {
         }
     }
 
+
     public int[][] fillDoubleArrayByRandom(int[][] arrw, int min, int max) {
         Random rnd = new Random();
         // i is column and j is row
@@ -40,7 +43,7 @@ public class Task1 {
         return arrw;
     }
 
-    public int sumColumnDoubleArray(int[][] arrw, int column) {
+    public int sumRowDoubleArray(int[][] arrw, int column) {
         int sum = 0;
         for (int j = 0; j < arrw[column].length; j++) {
             sum += arrw[column][j];
