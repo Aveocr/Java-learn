@@ -1,7 +1,9 @@
 target
-.classpath 
 .project
 .settings
 .vscode
-bin
 
+!/.idea/
+!/pom.xml
+!/.classpath
+!/bin/
