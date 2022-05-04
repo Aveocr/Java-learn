@@ -1,7 +1,5 @@
 package com.example.App.work2;
 
-import com.example.App.work2.Task1;
-
 public class Task5 {
     public static void main(String[] argc) {
         Task1 workWithArray = new Task1();
