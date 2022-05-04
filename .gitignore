@@ -2,8 +2,8 @@ target
 .project
 .settings
 .vscode
+.idea/
 
-!/.idea/
 !/pom.xml
 !/.classpath
 !/bin/
