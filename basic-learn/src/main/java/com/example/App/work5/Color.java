@@ -1,7 +1,7 @@
 package com.example.App.work5;
 
 public class Color {
-    public String TypeColor;
+    public String typeColor;
     public int a, b, c;
 
     // TypeColor is RGB or HSB
@@ -13,7 +13,7 @@ public class Color {
           this.a = a;
           this.b = b;
           this.c = c;
-          this.TypeColor = typeColor;
+          this.typeColor = typeColor;
       }
       else {
           throw new Exception("Color create error");
@@ -27,4 +27,6 @@ public class Color {
         return !((h > 360 || h < 0 || s > 100 || s < 0 || b > 100 || b < 0));
    }
 
+   // Сравнение
+   public boolean equals(Color newColor){ return (a == newColor.a && b ==newColor.b && c == newColor.c && typeColor.equals(newColor.typeColor));}
 }

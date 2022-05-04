@@ -24,7 +24,6 @@ class ColorTest {
         }
     }
 
-
     @ParameterizedTest
     @CsvSource({"rgb, 360, 18, 20", "hSb, 104, 101, 100", "rgd, 255, 255, 255", " rgb , -10, 0,0", "HSB, -10, 100, 100", " , 0, 0, 0"})
     void checkColorFalse(String type, int a, int b, int c){
@@ -38,5 +37,20 @@ class ColorTest {
         finally {
             assertFalse(haveException);
         }
+    }
+
+    @ParameterizedTest
+    @CsvSource({"rgb, 17, 18, 20", "hSb, 104, 100, 100", "rGb, 255, 255, 255", "RGB, 0, 0,0", "HSB, 360, 100, 100", "hsb, 0, 0, 0"})
+    void checkEqualColorTrue(String type, int a, int b, int c) throws Exception {
+        Color color = new Color(type, a, b, c);
+        assertTrue(color.equals(color));
+    }
+
+    @ParameterizedTest
+    @CsvSource({"rgb, 17, 18, 20", "hSb, 104, 100, 100", "rGb, 255, 255, 255", "RGB, 0, 0,0", "HSB, 360, 100, 100", "hsb, 0, 0, 0"})
+    void checkNotEqualColor(String type, int a, int b, int c) throws Exception {
+        Color buff = new Color("hsb", 17, 19, 20);
+        Color color = new Color(type, a, b, c);
+        assertFalse(color.equals(buff));
     }
 }
