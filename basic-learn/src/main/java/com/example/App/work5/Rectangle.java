@@ -7,11 +7,20 @@ public class Rectangle {
 
     // FigureColor = ('rgb'\'hsb'\'r'\'h', 134, 122, 234)
     // construction
-    public Rectangle(float width, float height, Color figureColor ){
-        this.width = width;
-        this.height = height;
-        this.area = width * height;
-        this.figureColor = figureColor;
+    public Rectangle(float width, float height, Color figureColor ) throws Exception {
+        if (isCorrectSide(width, height)) {
+            this.width = width;
+            this.height = height;
+            this.area = width * height;
+            this.figureColor = figureColor;
+        }
+        else {
+            throw new Exception("Side\\Sides specified incorrectly!");
+        }
+
+    }
+    public boolean isCorrectSide(float width, float height){
+        return (width > 0 && height > 0);
     }
 
     // Getters
