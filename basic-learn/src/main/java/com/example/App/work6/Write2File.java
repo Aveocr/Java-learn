@@ -10,6 +10,7 @@ public class Write2File {
         try(FileWriter writer = new FileWriter(fileName, append))
         {
             writer.append(text);
+            System.out.println(text);
             writer.flush();
         }
         catch(IOException ex){

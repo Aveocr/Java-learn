@@ -21,10 +21,10 @@ public class Car {
 
     @Override
     public String toString() {
-        return  "\n\t\tmodel='" + model + '\'' +
-                ",\n\t\tmaker='" + maker + '\''  +
-                ",\n\t\tyear=" + year +
-                ",\n\t\tcolor='" + color + '\'' +
-                "\n";
+        return  "\nmodel='" + model +
+                ",maker='" + maker  +
+                ",year=" + year +
+                ",color='" + color +
+                "";
     }
 }

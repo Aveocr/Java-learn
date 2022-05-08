@@ -17,8 +17,10 @@ public class CarMaker {
     @Override
     public String toString() {
         return "\nCarMaker{" +
-                "\n\tmaker='" + maker + '\'' +
-                ",\n\tcars={" + cars +
-                "\t}\n}";
+                "maker='" + maker + '\'' +
+                ",cars={model=\"" + cars.model + '\"' +
+                ", maker=\"" + maker + "\"" +
+                ", year=" + cars.year +
+                ", color=\"" + cars.color + "\"}}";
     }
 }
