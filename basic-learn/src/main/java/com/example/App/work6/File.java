@@ -17,6 +17,7 @@ public class File {
     private static final String path_2 = "./basic-learn/src/main/resources/cars_color.csv";
     private static final String path_3 = "./basic-learn/src/main/resources/cars_maker.csv";
     private static final String path_4 = "./basic-learn/src/main/resources/cars_final.csv";
+
     public static void main(String[] args) throws IOException {
         BufferedReader reader = getReader();
         HEADERS = readHeaders(reader);
@@ -113,7 +114,6 @@ public class File {
                 .collect(Collectors.groupingBy(Car::getMaker, Collectors.toList()));
     }
 
-    // Map<String
    static List<CarMaker> convertMap2List(Map<String, List<Car>> cars) {
      List<CarMaker> carMaker = new LinkedList<>();
       for(Map.Entry<String, List<Car>> entry: cars.entrySet()){
