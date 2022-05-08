@@ -21,10 +21,10 @@ public class File {
         BufferedReader reader = getReader();
         HEADERS = readHeaders(reader);
         List<Car> rowCars = parseCars(reader);
-
+        System.out.println(rowCars.get(1).getColor());
         // Запись в файл
         Write2File write2File = new Write2File();
-        write2File.write(path_1, HEADERS.toString() + '\n', true);
+        write2File.write(path_1, HEADERS.toString() + "\n", true);
         write2File.write(path_1, rowCars.toString(), true);
         /* Конец 1 задания */
 
