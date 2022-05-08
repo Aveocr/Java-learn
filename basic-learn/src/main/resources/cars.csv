@@ -1,0 +1,502 @@
+{car model=0, color=3, car make=1, car model year=2}
+[
+		model='Town Car',
+		maker='Lincoln',
+		year=2007,
+		color='Orange'
+, 
+		model='Sierra 1500',
+		maker='GMC',
+		year=2001,
+		color='Maroon'
+, 
+		model='SRX',
+		maker='Cadillac',
+		year=1998,
+		color='Aquamarine'
+, 
+		model='Avenger',
+		maker='Dodge',
+		year=1999,
+		color='Yellow'
+, 
+		model='C-MAX Hybrid',
+		maker='Ford',
+		year=2009,
+		color='Red'
+, 
+		model='Daewoo Magnus',
+		maker='Suzuki',
+		year=1998,
+		color='Pink'
+, 
+		model='Grand Prix',
+		maker='Pontiac',
+		year=1999,
+		color='Crimson'
+, 
+		model='Century',
+		maker='Buick',
+		year=2009,
+		color='Goldenrod'
+, 
+		model='Swift',
+		maker='Suzuki',
+		year=2007,
+		color='Indigo'
+, 
+		model='Explorer',
+		maker='Ford',
+		year=2006,
+		color='Green'
+, 
+		model='QX56',
+		maker='Infiniti',
+		year=2004,
+		color='Puce'
+, 
+		model='del Sol',
+		maker='Honda',
+		year=2009,
+		color='Turquoise'
+, 
+		model='XT',
+		maker='Subaru',
+		year=2007,
+		color='Orange'
+, 
+		model='MPV',
+		maker='Mazda',
+		year=2007,
+		color='Goldenrod'
+, 
+		model='Ram 50',
+		maker='Dodge',
+		year=2007,
+		color='Maroon'
+, 
+		model='Elan',
+		maker='Lotus',
+		year=2005,
+		color='Indigo'
+, 
+		model='Mustang',
+		maker='Ford',
+		year=2003,
+		color='Mauv'
+, 
+		model='Avalon',
+		maker='Toyota',
+		year=2010,
+		color='Aquamarine'
+, 
+		model='Continental',
+		maker='Lincoln',
+		year=2004,
+		color='Mauv'
+, 
+		model='Ram 1500',
+		maker='Dodge',
+		year=2008,
+		color='Mauv'
+, 
+		model='A5',
+		maker='Audi',
+		year=1998,
+		color='Maroon'
+, 
+		model='Camaro',
+		maker='Chevrolet',
+		year=2008,
+		color='Red'
+, 
+		model='Storm',
+		maker='Geo',
+		year=2000,
+		color='Purple'
+, 
+		model='R-Class',
+		maker='Mercedes-Benz',
+		year=2008,
+		color='Crimson'
+, 
+		model='A8',
+		maker='Audi',
+		year=2008,
+		color='Red'
+, 
+		model='Grand Marquis',
+		maker='Mercury',
+		year=2005,
+		color='Orange'
+, 
+		model='Neon',
+		maker='Dodge',
+		year=2009,
+		color='Yellow'
+, 
+		model='Sable',
+		maker='Mercury',
+		year=1998,
+		color='Fuscia'
+, 
+		model='Escalade EXT',
+		maker='Cadillac',
+		year=2003,
+		color='Red'
+, 
+		model='Prizm',
+		maker='Chevrolet',
+		year=2005,
+		color='Mauv'
+, 
+		model='Escalade ESV',
+		maker='Cadillac',
+		year=2010,
+		color='Goldenrod'
+, 
+		model='TrailBlazer',
+		maker='',
+		year=2003,
+		color='Puce'
+, 
+		model='Viper',
+		maker='Dodge',
+		year=2009,
+		color='Pink'
+, 
+		model='Vega',
+		maker='Chevrolet',
+		year=2010,
+		color='Green'
+, 
+		model='9-3',
+		maker='Saab',
+		year=2001,
+		color='Blue'
+, 
+		model='S-Class',
+		maker='Mercedes-Benz',
+		year=2003,
+		color='Crimson'
+, 
+		model='Camaro',
+		maker='Chevrolet',
+		year=2010,
+		color='Mauv'
+, 
+		model='i-370',
+		maker='Isuzu',
+		year=2009,
+		color='Goldenrod'
+, 
+		model='SLR McLaren',
+		maker='Mercedes-Benz',
+		year=1999,
+		color='Maroon'
+, 
+		model='9-7X',
+		maker='Saab',
+		year=2008,
+		color='Maroon'
+, 
+		model='Equator',
+		maker='Suzuki',
+		year=2001,
+		color='Turquoise'
+, 
+		model='2500',
+		maker='Ram',
+		year=2002,
+		color='Blue'
+, 
+		model='6000',
+		maker='Pontiac',
+		year=1999,
+		color='Khaki'
+, 
+		model='RX Hybrid',
+		maker='Lexus',
+		year=2008,
+		color='Goldenrod'
+, 
+		model='D250',
+		maker='Dodge',
+		year=2005,
+		color='Red'
+, 
+		model='G-Series G20',
+		maker='Chevrolet',
+		year=2007,
+		color='Maroon'
+, 
+		model='Escape',
+		maker='Ford',
+		year=1998,
+		color='Red'
+, 
+		model='MKX',
+		maker='Lincoln',
+		year=2010,
+		color='Violet'
+, 
+		model='Sonata',
+		maker='',
+		year=2001,
+		color='Yellow'
+, 
+		model='Cougar',
+		maker='Mercury',
+		year=2009,
+		color='Puce'
+, 
+		model='Wrangler',
+		maker='Jeep',
+		year=2007,
+		color='Puce'
+, 
+		model='Silverado 1500',
+		maker='Chevrolet',
+		year=2009,
+		color='Teal'
+, 
+		model='3500',
+		maker='Ram',
+		year=2010,
+		color='Goldenrod'
+, 
+		model='900',
+		maker='Saab',
+		year=2008,
+		color='Orange'
+, 
+		model='Talon',
+		maker='Eagle',
+		year=2009,
+		color='Turquoise'
+, 
+		model='Envoy',
+		maker='GMC',
+		year=2004,
+		color='Orange'
+, 
+		model='Outlook',
+		maker='Saturn',
+		year=2007,
+		color='Green'
+, 
+		model='Roadmaster',
+		maker='Buick',
+		year=2006,
+		color='Aquamarine'
+, 
+		model='Grand Caravan',
+		maker='Dodge',
+		year=2010,
+		color='Purple'
+, 
+		model='XF',
+		maker='Jaguar',
+		year=2007,
+		color='Crimson'
+, 
+		model='TT',
+		maker='Audi',
+		year=2005,
+		color='Red'
+, 
+		model='Cougar',
+		maker='Mercury',
+		year=2004,
+		color='Blue'
+, 
+		model='Journey',
+		maker='Dodge',
+		year=2004,
+		color='Teal'
+, 
+		model='Titan',
+		maker='Nissan',
+		year=1999,
+		color='Violet'
+, 
+		model='Skylark',
+		maker='Buick',
+		year=2008,
+		color='Blue'
+, 
+		model='Chariot',
+		maker='Mitsubishi',
+		year=2010,
+		color='Orange'
+, 
+		model='Optima',
+		maker='Kia',
+		year=2004,
+		color='Green'
+, 
+		model='Integra',
+		maker='Acura',
+		year=2010,
+		color='Purple'
+, 
+		model='Ram 3500',
+		maker='Dodge',
+		year=2007,
+		color='Orange'
+, 
+		model='88',
+		maker='Oldsmobile',
+		year=2008,
+		color='Orange'
+, 
+		model='Accent',
+		maker='Hyundai',
+		year=2006,
+		color='Crimson'
+, 
+		model='SRX',
+		maker='Cadillac',
+		year=2007,
+		color='Blue'
+, 
+		model='ES',
+		maker='Lexus',
+		year=1999,
+		color='Orange'
+, 
+		model='57',
+		maker='Maybach',
+		year=2000,
+		color='Crimson'
+, 
+		model='Optima',
+		maker='Kia',
+		year=2003,
+		color='Mauv'
+, 
+		model='Grand Prix',
+		maker='Pontiac',
+		year=2001,
+		color='Aquamarine'
+, 
+		model='Aerostar',
+		maker='Ford',
+		year=2003,
+		color='Teal'
+, 
+		model='Firebird',
+		maker='Pontiac',
+		year=1998,
+		color='Green'
+, 
+		model='Forenza',
+		maker='Suzuki',
+		year=2009,
+		color='Turquoise'
+, 
+		model='3 Series',
+		maker='BMW',
+		year=1998,
+		color='Crimson'
+, 
+		model='Escape',
+		maker='Ford',
+		year=1999,
+		color='Maroon'
+, 
+		model='Matrix',
+		maker='Toyota',
+		year=1998,
+		color='Khaki'
+, 
+		model='Cougar',
+		maker='Mercury',
+		year=2006,
+		color='Teal'
+, 
+		model='Cobalt',
+		maker='Chevrolet',
+		year=2004,
+		color='Fuscia'
+, 
+		model='Quest',
+		maker='',
+		year=2001,
+		color='Aquamarine'
+, 
+		model='Tracker',
+		maker='Geo',
+		year=2004,
+		color='Aquamarine'
+, 
+		model='Sparrow',
+		maker='Corbin',
+		year=2001,
+		color='Yellow'
+, 
+		model='3500 Club Coupe',
+		maker='GMC',
+		year=2006,
+		color='Green'
+, 
+		model='Diablo',
+		maker='Lamborghini',
+		year=2006,
+		color='Pink'
+, 
+		model='LHS',
+		maker='Chrysler',
+		year=2003,
+		color='Yellow'
+, 
+		model='Express 1500',
+		maker='Chevrolet',
+		year=2000,
+		color='Indigo'
+, 
+		model='Spectra',
+		maker='Kia',
+		year=2006,
+		color='Red'
+, 
+		model='626',
+		maker='',
+		year=2009,
+		color='Mauv'
+, 
+		model='MPV',
+		maker='Mazda',
+		year=2007,
+		color='Crimson'
+, 
+		model='E-Class',
+		maker='Mercedes-Benz',
+		year=1999,
+		color='Blue'
+, 
+		model='Prowler',
+		maker='Plymouth',
+		year=1999,
+		color='Fuscia'
+, 
+		model='CL-Class',
+		maker='Mercedes-Benz',
+		year=2000,
+		color='Fuscia'
+, 
+		model='Lancer',
+		maker='Mitsubishi',
+		year=2010,
+		color='Turquoise'
+, 
+		model='GX',
+		maker='Lexus',
+		year=2004,
+		color='Yellow'
+, 
+		model='X3',
+		maker='',
+		year=2005,
+		color='Turquoise'
+]
