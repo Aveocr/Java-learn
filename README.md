@@ -89,7 +89,6 @@ Work4Test "Работа со строками"
 - После создания компонента можно изменять только его цвет
 - При создании компонента с некорректными значениями должна выбрасываться ошибка с соответствующим сообщением
 
-
 ## Задачи
 Решение задания представлено в [файле](https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/java/com/example/App/work6/File.java)
 
@@ -126,3 +125,4 @@ Work4Test "Работа со строками"
 [3]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars_color.csv
 [4]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars_maker.csv
 [5]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars_final.csv
+
