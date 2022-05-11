@@ -6,6 +6,9 @@
 - Java 8
 - Maven 3.6.3
 - JUnit 5
+- Stream API
+- Lombok
+- Java IO
 
 Список задач с ссылками на классы содержащие решение
 ========================
@@ -85,3 +88,41 @@ Work4Test "Работа со строками"
 - Копонент должен хранить информацию о длинах сторон/радиуса
 - После создания компонента можно изменять только его цвет
 - При создании компонента с некорректными значениями должна выбрасываться ошибка с соответствующим сообщением
+
+## Задачи
+Решение задания представлено в [файле](https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/java/com/example/App/work6/File.java)
+
+1. Провести анализ данных, представленных в файле [`CAR_DATA.csv`][1];
+2. Создать классы:
+   1. [Car](https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/java/com/example/App/work6/Car.java) - автомобиль;
+   2. [CarMaker](https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/java/com/example/App/work6/CarMaker.java) - производитель автомобиля;
+3. Получить данные из [`CAR_DATA.csv`][1];
+4. Выполнить очистку данных;
+5. Преобразовать из реляционной в объектно-ориентированную модель данных:
+   1. Преобразовать строку в массив строк;
+   2. Преобразовать массив строк в объекты класса Car;
+   3. Вывести результат построчно в [файл][2];
+6. Группировка по цветам:
+   1. Преобразовать объекты класса Car в Map, где:
+      1. ключ - цвет автомобиля;
+      2. значение - информация об автомобиле;
+   2. Вывести результат преобразований построчно в [файл][3];
+7. Преобразовать объекты класса Car в объекты класса CarMaker:
+   1. Преобразовать объекты класса Car в Map, где:
+      1. ключ - производитель автомобиля;
+      2. значение - список с информация об автомобилях;
+   2. Преобразовать Map в List типа CarMaker;
+   3. Вывести результат построчно в [файл][4];
+   4. Вывести производителей в консоль, в виде массива используя Collectors.joining;
+8. Получить список автомобилей:
+   1. Оставить производителей, у которых есть больше чем 2 модели автомобиля;
+   2. Отсортировать производителей, в алфавитном порядке;
+   3. Вывести результат построчно в [файл][5].
+
+
+[1]: https://github.com/rassafel/java-learn/blob/master/tasks/data/CAR_DATA.csv
+[2]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars.csv
+[3]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars_color.csv
+[4]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars_maker.csv
+[5]: https://github.com/Aveocr/Java-learn/blob/task3/basic-learn/src/main/resources/cars_final.csv
+
